@@ -84,5 +84,5 @@ print ('{} {}'.format("Played Today:",daytrax))
 print ('{} {}'.format("Played This Week:",weektrax))
 
 print("---")
-print("%s%s" % ("last.fm Profile |https://www.last.fm/user/",
+print("%s%s" % ("last.fm Profile |href=https://www.last.fm/user/",
                  lastfmUsername))
