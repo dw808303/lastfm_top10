@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 # <bitbar.title>Rolling Top 10 Artists</bitbar.title>
-# <bitbar.version>1.1.1</bitbar.version>
+# <bitbar.version>1.1.2</bitbar.version>
 # <bitbar.author>d.w.</bitbar.author>
 # <bitbar.author.github>dw808303</bitbar.author.github>
-# <bitbar.image>https://www.freeke.org/i/2021/top10.jpg</bitbar.image>
+# <bitbar.image>https://freeke.org/ffg/i/2025/lastfm_top10.png</bitbar.image>
 # <bitbar.dependencies>python3, requests</bitbar.dependencies>
 # <bitbar.desc>Most played artists this week, via last.fm</bitbar.desc>
 
 # constants (must edit these)
 # please create a last.fm API key at https://www.last.fm/api/account/create
 # this script hits the last.fm API endpoint 3 times, so keep that in
-# mind when deciding how frequently to invoke it w/ swiftbar/xbar
+# mind when deciding how frequently to invoke it with [bit,swift,x]bar
 
 lastfmUsername = ""
 lastfmAPIKey = ""
@@ -24,7 +24,7 @@ import sys
 
 # Draw menubar icon (uses SFSymbols)
 
-print ("􀓵")
+print ("􀕒")
 print ("---")
 
 
